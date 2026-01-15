@@ -84,7 +84,7 @@ on:
           - -summer-growing
           - -autumn-harvesting
           - -winter-storing
-          - -yourname
+          - -StackYL
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
@@ -92,6 +92,7 @@ on:
         type: choice
         options:
           - kernel-config/release/rk3588
+          - kernel-config/release/rk3588-deepin
           - false
 
 env:
